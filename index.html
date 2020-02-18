@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Make me into a grid!</title>
+        <title>Being FLexible</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -15,22 +15,34 @@
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
         <link href='http://fonts.googleapis.com/css?family=Lora:700' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     </head>
     <body>
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <section class="wrapper">
-            <div class="div-1">
+        <section class="flex-container">
+          <header>
+            <h1>Hi, I'm Kim!</h1>
+          </header>
+          <main>
+            <p>I'm a <span>Responsive Designer & Developer</span> who loves working with code to create unique solutions for websites.</p>
+          </main>
+            <div id="div-1" class="flex-items">
             <p>I currently live in Columbus, Ohio with my husband, dog, and a handful of hamsters. I'm <span>originally from Iowa</span> and love visiting often.</p>
             </div>
-            <div class="div-2">
+            <div id="div-2" class="flex-items">
             <p>I definitely <span>love animals more than people!</span> I currently work with dogs fulltime, but plan to transition to tech. Life is just brighter when you have a pet.</p>
             </div>
-            <div class="div-3">
+            <div id="div-3" class="flex-items">
               <p>To relax, I love <span>getting outside</span> and hiking or biking with my husband. The weather isn't always great in Ohio, so it's important to take advantage of it when it's nice!</p>
             </div>
+            <footer>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-linkedin"></i>
+                <i class="fab fa-pinterest"></i>
+            </footer>
         </section>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
